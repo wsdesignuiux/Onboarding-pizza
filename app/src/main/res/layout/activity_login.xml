@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/myviewpager"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="60dp"
+            android:layout_gravity="center"
+            android:clipToPadding="false"/>
+
+        <me.relex.circleindicator.CircleIndicator
+            android:id="@+id/indicator"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="bottom"
+            app:ci_drawable="@drawable/ic_circle"
+            app:ci_drawable_unselected="@drawable/ic_circle"
+            app:ci_height="7dp"
+            android:layout_alignParentBottom="true"
+            app:ci_width="7dp" />
+
+        <customfonts.TextViewSFProDisplaySemibold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="11.5sp"
+            android:text="Signup with Facebook"
+            android:background="@drawable/blue_dark_rect"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="76.7dp"
+            android:layout_marginRight="76.7dp"/>
+
+
+        <customfonts.TextViewSFProDisplaySemibold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="11.5sp"
+            android:text="Signup with Google"
+            android:background="@drawable/red_dark_rect"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="76.7dp"
+            android:layout_marginRight="76.7dp"/>
+
+
+
+        <customfonts.MyTextView_SF_Pro_Light
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#929292"
+            android:textSize="10sp"
+            android:text="or"
+            android:gravity="center"
+            android:layout_marginTop="10dp"/>
+
+
+        <customfonts.TextViewSFProDisplaySemibold
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Signup with Email"
+            android:textColor="@color/txt_color"
+            android:textSize="11.5sp"
+            android:gravity="center"
+            android:background="@drawable/grey"
+            android:layout_marginLeft="76.7dp"
+            android:layout_marginRight="76.7dp"
+            android:layout_marginTop="17.5sp"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25.30dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+
+
+        <customfonts.TextViewSFProDisplayRegular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11.5sp"
+            android:textColor="@color/txt_color"
+            android:text="Existing user?"/>
+
+
+        <customfonts.TextViewSFProDisplaySemibold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login now"
+            android:textColor="@color/red"
+            android:textSize="11.5sp"
+            android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

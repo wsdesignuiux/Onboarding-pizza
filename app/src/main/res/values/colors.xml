@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="transperent">#00000000</color>
+    <color name="red">#f34949</color>
+    <color name="txt_color">#3b3b3b</color>
+
+
+    <color name="activated">#f34949</color>
+    <color name="noraml">#a9a9b0</color>
+</resources>
